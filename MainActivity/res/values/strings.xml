@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Proyecto Controles </string>
+    <string name="action_settings">Settings</string>
+    <string name="Menu">Pulse en la esquina superior derecha para acceder al menu :)</string>
+    <string name="RadioButton">Radio Button</string>
+	<string name="Checkbox">Checkbox</string>
+	<string name="Holamundo">Hola!</string>
+	
+	<string name="title_botones">Botones Básicos</string>
+	<string name="BotonList">Listas</string>
+	<string name="BotonSpinner">Spinner</string>
+	<string name="title_botoneSeleccion">Botones de selección</string>
+	
+	<string name="textoAcercaDe">Esta aplicacion esta hecha por Javier López de 2º DAM</string>
+	<string name="title_acercaDe">Acerca de</string>
+	
+	<string name="title_pantRadioButton">Radio buttons</string>
+	
+	<string name="opcion_1">Counter-Strike</string>
+	<string name="opcion_2">League of legends</string>
+	<string name="opcion_3">Grand theft auto V</string>
+	
+	<string name="title_pantCheckBox">Checkboxes</string>
+	
+	<string name="marcame">Marcame!! </string>
+	<string name="atrevete">Atrevete a marcarme</string>
+	
+	<string name="title_pantSaludo">Pantalla de saludo</string>
+	<string name="title_pantList">Lists</string>
+	<string name="title_pantSpinner">Spinners</string>
+</resources>

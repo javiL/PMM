@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projcontrolesbasicos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.projcontrolesbasicos.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.projcontrolesbasicos.BotonesBasicos"
+            	  android:label="@string/title_botones">
+            
+        </activity>
+        <activity android:name="com.example.projcontrolesbasicos.BotoneSeleccion"
+            	  android:label="@string/title_botoneSeleccion">
+            
+        </activity>
+        <activity android:name="com.example.projcontrolesbasicos.AcercaDe"
+            	  android:label="@string/title_acercaDe">
+            
+        </activity>
+        
+        <activity android:name="com.example.projcontrolesbasicos.PantRadioButton"
+            	  android:label="@string/title_pantRadioButton">
+        </activity>
+        <activity android:name="com.example.projcontrolesbasicos.PantCheckBox"
+            	  android:label="@string/title_pantCheckBox">
+        </activity>
+        
+        <activity 
+            android:name="com.example.projcontrolesbasicos.PantSaludo" 
+            android:label="@string/title_pantSaludo">
+        </activity>
+        <activity android:name="com.example.projcontrolesbasicos.PantList"
+            	  android:label="@string/title_pantList">
+        </activity>
+        <activity android:name="com.example.projcontrolesbasicos.PantSpinner"
+            	  android:label="@string/title_pantSpinner">
+        </activity>
+        
+    </application>
+
+</manifest>
